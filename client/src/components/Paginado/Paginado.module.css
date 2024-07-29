@@ -1,0 +1,26 @@
+ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+li {
+  list-style-type: none;
+}
+
+.numContainer {
+  width: 22px;
+  height: 22px;
+  background-color: rgba(127, 255, 212, 0.5);
+  border: 1px solid rgb(13, 87, 236);
+  border-radius: 5px;
+  cursor: pointer;
+  font-style: bold;
+}
+
+.numContainer:active {
+  background-color: rgba(0, 0, 139, 0.5);
+  border: 1px solid rgb(144, 238, 144);
+  color: rgb(144, 238, 144);
+}

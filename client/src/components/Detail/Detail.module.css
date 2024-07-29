@@ -1,0 +1,92 @@
+.container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+}
+.btnGoBack {
+  cursor: pointer;
+  position: relative;
+  align-items: flex-start;
+  font-size: 15px;
+  padding: 8px;
+  display: inline-block;
+  border-radius: 20px;
+  min-height: 20px;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  font-weight: 500;
+  outline: none;
+  color: #0738aa;
+  border: 2px solid rgb(7, 53, 238);
+  background-color: rgb(196, 193, 193);
+  width: 150px;
+}
+.btnGoBack:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.area {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: rgba(105, 187, 242, 0.39);
+  color: #0f2656;
+  font-size: 16px;
+  font-weight: 200;
+  line-height: 16px;
+  width: 450px;
+  height: 500px;
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 40px;
+  margin-right: 400px;
+  margin-left: 170px;
+  box-shadow: 0 10px 20px rgba(12, 42, 239, 0.2);
+  border-style: outset;
+}
+
+.image {
+  margin-top: 10px;
+  margin-left: 16px;
+  width: 250px;
+  height: 167px;
+  left: 45px;
+  top: 200px;
+  border-radius: 6px;
+  object-fit: cover;
+}
+.country {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-left: 20px;
+  line-height: 36px;
+  font-size: 30px;
+  font-weight: 600;
+  color: #16254c;
+  line-height: 1;
+  margin-top: 0;
+}
+.punto {
+  display: flex;
+  list-style-type: none;
+  flex-direction: row;
+}
+.dit {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 25px;
+  margin-left: 20px;
+  line-height: 1;
+  margin: 5px;
+}
+.act {
+  gap: 5px;
+}
+.actTitle {
+  margin-right: 5px;
+  margin-top: -15px;
+  gap: 5px;
+}

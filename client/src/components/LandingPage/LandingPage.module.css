@@ -1,0 +1,32 @@
+body {
+  background-image: url("../../images/lpimage2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 90vh;
+}
+
+.title {
+  color: darkblue;
+  background-color: rgba(173, 216, 230, 0.5);
+}
+
+.buttonContainer {
+  background-color: rgba(26, 188, 247, 0.3);
+}
+
+.link {
+  text-decoration: none;
+}
+
+.button {
+  border-radius: 20px;
+  height: 30px;
+  width: 200px;
+  color: #0738aa;
+  border: 2px solid rgb(7, 53, 238);
+  background-color: rgb(196, 193, 193);
+  font-size: 15px;
+  font-weight: 500;
+}

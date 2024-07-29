@@ -1,0 +1,55 @@
+.container {
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+}
+
+.letterA {
+  margin: 20px;
+  color: rgb(118, 225, 241);
+  font-size: 40px;
+  font-weight: 500;
+  margin-top: 80px;
+  position: center;
+  text-shadow: 1px 2px 3px #159df1, 0 0 1em rgb(24, 4, 90),
+    0 0 0.2em rgb(3, 71, 74);
+}
+.letterB {
+  margin: 20px;
+  color: rgb(118, 225, 241);
+  font-size: 24px;
+  font-weight: 600;
+  position: center;
+  text-shadow: 1px 2px 3px #0335b6, 0 0 1em rgb(24, 4, 90),
+    0 0 0.2em rgb(3, 71, 74);
+}
+
+.btnGoBack {
+  cursor: pointer;
+  position: relative;
+  align-items: flex-start;
+  font-size: 15px;
+  padding: 8px;
+  display: inline-block;
+  border-radius: 20px;
+  min-height: 20px;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  font-weight: 500;
+  outline: none;
+  color: #0738aa;
+  border: 2px solid rgb(7, 53, 238);
+  background-color: rgb(196, 193, 193);
+  width: 150px;
+}
+
+.btnGoBack:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.containerA {
+  background-color: rgba(173, 216, 230, 0.5);
+}
+.containerB {
+  background-color: rgba(26, 188, 247, 0.3);
+}
